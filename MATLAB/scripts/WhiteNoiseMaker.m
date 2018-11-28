@@ -25,4 +25,5 @@ end
 player = audioplayer(WhiteNoise,Fs);
 play(player);
 
+return
 audiowrite(FileName,WhiteNoise,Fs);
